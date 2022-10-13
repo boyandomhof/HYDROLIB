@@ -27,5 +27,5 @@ dependencies:
   - meshkernel=1.0.0
   - lxml=4.9.1
   - pip:
-    - meshkernel==1.0.0
+    - meshkernel=1.0.0
   
