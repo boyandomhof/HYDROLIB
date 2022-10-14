@@ -9,14 +9,14 @@
     <rule>
       <lookupTable id="[HydraulicRule]Control Group 1/Lookup table">
         <table>
-          <record x="15.5" y="17.2" />
-          <record x="16.5" y="17.6" />
-          <record x="17.5" y="17.9" />
+          <record x="18" y="17.5" />
+          <record x="18.5" y="18" />
+          <record x="19" y="18.5" />
         </table>
         <interpolationOption>BLOCK</interpolationOption>
         <extrapolationOption>BLOCK</extrapolationOption>
         <input>
-          <x ref="IMPLICIT">[Input]ObsS_96684_1/Water level (op)</x>
+          <x ref="IMPLICIT">[Input]ObsPt2/Water level (op)</x>
         </input>
         <output>
           <y>[Output]S_96684/Crest level (s)</y>
@@ -28,9 +28,9 @@
     <trigger>
       <standard id="[StandardCondition]Control Group 1/Standard Condition">
         <condition>
-          <x1Series ref="EXPLICIT">[Input]ObsS_96684_2/Water level (op)</x1Series>
+          <x1Series ref="EXPLICIT">[Input]ObsPt3/Water level (op)</x1Series>
           <relationalOperator>Greater</relationalOperator>
-          <x2Value>17.5</x2Value>
+          <x2Value>19</x2Value>
         </condition>
         <true>
           <trigger>
