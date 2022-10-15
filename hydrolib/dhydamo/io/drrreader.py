@@ -748,9 +748,7 @@ class ExternalForcingsIO:
         file_list = [file for file in file_list if file.lower().endswith("_l1.idf")]
         times = []
         arr = np.zeros((len(file_list), len(catchments.code)))
-        for ifile, file in tqdm(
-            enumerate(file_list), total=len(file_list), desc="Reading seepage files"
-        ):
+        for ifile, file in enumerate(file_list):
             array, affine, time = self.external_forcings.drrmodel.read_raster(
                 os.path.join(seepage_folder, file)
             )
@@ -788,11 +786,7 @@ class ExternalForcingsIO:
             file_list = os.listdir(precip_folder)
             times = []
             arr = np.zeros((len(file_list), len(areas.code)))
-            for ifile, file in tqdm(
-                enumerate(file_list),
-                total=len(file_list),
-                desc="Reading precipitation files",
-            ):
+            for ifile, file in enumerate(file_list):
                 array, affine, time = self.external_forcings.drrmodel.read_raster(
                     os.path.join(precip_folder, file)
                 )
@@ -831,11 +825,7 @@ class ExternalForcingsIO:
             # agg_areas = areas.iloc[0:len(areas),:].dissolve(by='dissolve',aggfunc='mean')
             times = []
             arr = np.zeros((len(file_list), len(areas)))
-            for ifile, file in tqdm(
-                enumerate(file_list),
-                total=len(file_list),
-                desc="Reading evaporation files",
-            ):
+            for ifile, file in enumerate(file_list):
                 array, affine, time = self.external_forcings.drrmodel.read_raster(
                     os.path.join(evap_folder, file)
                 )
