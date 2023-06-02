@@ -24,4 +24,4 @@ dependencies:
   - fire=0.4.0
   - rstr=2.2.6
   - pip:
-    - hydrolib-core=0.4.1
+    - hydrolib-core==0.4.1
