@@ -1,10 +1,6 @@
 # HYDROLIB
 
-[![Binder](https://mybinder.org/badge_logo.svg)]([[https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder/hkv?labpath=hydrolib%2Fnotebooks%2FHydrolib-DHydamo_usage_introduction.ipynb](https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder-dsd-2023?labpath=hydrolib%2Fnotebooks%2FHydrolib-D-Dydamo_usage_introduction.ipynb)](https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder-dsd-2023?labpath=hydrolib%2Fnotebooks%2FHydrolib-D-Dydamo_usage_introduction.ipynb))
-
-image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder-dsd-2023?labpath=hydrolib%2Fnotebooks%2FHydrolib-D-Dydamo_usage_introduction.ipynb
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder-dsd-2023?labpath=hydrolib%2Fnotebooks%2FHydrolib-D-Hydamo_usage_introduction-Oefeningen.ipynb)
 [![Join the chat at https://gitter.im/Deltares/HYDROLIB](https://badges.gitter.im/Deltares/HYDROLIB.svg)](https://gitter.im/Deltares/HYDROLIB?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![ci](https://github.com/Deltares/HYDROLIB/actions/workflows/ci.yml/badge.svg)](https://github.com/Deltares/HYDROLIB/actions/workflows/ci.yml)
